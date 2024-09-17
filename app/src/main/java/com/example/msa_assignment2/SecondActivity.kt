@@ -29,11 +29,11 @@ class SecondActivity : ComponentActivity() {
         Column(modifier = Modifier.padding(16.dp)) {
             // List of mobile software engineering challenges
             Text("Mobile Software Engineering Challenges:", fontSize = 24.sp, modifier = Modifier.padding(bottom = 8.dp))
-            Text("1. Device fragmentation", fontSize = 18.sp)
+            Text("1. Platform fragmentation", fontSize = 18.sp)
             Text("2. Performance optimization", fontSize = 18.sp)
-            Text("3. Security vulnerabilities", fontSize = 18.sp)
-            Text("4. Battery life management", fontSize = 18.sp)
-            Text("5. User experience (UX) consistency", fontSize = 18.sp, modifier = Modifier.padding(bottom = 16.dp))
+            Text("3. Security Concerns", fontSize = 18.sp)
+            Text("4. Compatibility with other Devices", fontSize = 18.sp)
+            Text("5. Limited Resources and Budget", fontSize = 18.sp, modifier = Modifier.padding(bottom = 16.dp))
 
             // Button to go back to MainActivity
             Button(onClick = {

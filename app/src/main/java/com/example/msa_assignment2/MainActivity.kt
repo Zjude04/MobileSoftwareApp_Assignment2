@@ -25,11 +25,11 @@ class MainActivity : ComponentActivity() {
     }
 
     @Composable
-    fun MainScreen(modifier: Modifier = Modifier) {
+    fun MainScreen() {
         Column(modifier = Modifier.padding(16.dp)) {
             // Display full name and student ID
-            Text("Name: John Doe", fontSize = 24.sp, modifier = Modifier.padding(bottom = 8.dp))
-            Text("Student ID: 12345678", fontSize = 20.sp, modifier = Modifier.padding(bottom = 16.dp))
+            Text("Name: Zane Jude", fontSize = 24.sp, modifier = Modifier.padding(bottom = 8.dp))
+            Text("Student ID: 1403207", fontSize = 20.sp, modifier = Modifier.padding(bottom = 16.dp))
 
             // Explicit Intent Button to start SecondActivity
             Button(onClick = {
@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
                 val intent = Intent("com.example.msa_assignment2.ACTION_VIEW")
                 startActivity(intent)
             }) {
-                Text("Start Activity (Button 2)")
+                Text("Start Activity Implicitly")
             }
         }
     }
