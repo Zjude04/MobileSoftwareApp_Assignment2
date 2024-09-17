@@ -3,4 +3,5 @@ Button 2 or Start Activity Implicitly redirects the user to the secondActivity a
 On the second activity i have a list of 5 mobile engineering challenges and a button to redirect back to the main activity
 
 Emulator = Medium Phone API 35
+
 Android OS version = 15
