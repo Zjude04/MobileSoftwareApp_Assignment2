@@ -24,7 +24,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    //fsdfj
     @Composable
     fun MainScreen() {
         Column(modifier = Modifier.padding(16.dp)) {
@@ -46,6 +45,14 @@ class MainActivity : ComponentActivity() {
                 startActivity(intent)
             }) {
                 Text("Start Activity Implicitly")
+            }
+
+            // Button to start Image Capture Activity
+            Button(onClick = {
+                val intent = Intent(this@MainActivity, ImageCaptureActivity::class.java)
+                startActivity(intent)
+            }) {
+                Text("View Image Activity")
             }
         }
     }
