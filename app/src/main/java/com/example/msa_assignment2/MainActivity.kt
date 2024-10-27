@@ -24,6 +24,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    //Test repo connect
     @Composable
     fun MainScreen() {
         Column(modifier = Modifier.padding(16.dp)) {
