@@ -24,6 +24,7 @@ class SecondActivity : ComponentActivity() {
         }
     }
 
+    //repo comment test
     @Composable
     fun ChallengesScreen() {
         Column(modifier = Modifier.padding(16.dp)) {
