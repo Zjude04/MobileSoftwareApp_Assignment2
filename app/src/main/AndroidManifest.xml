@@ -6,9 +6,9 @@
         android:name="com.example.msa_assignment2.MSE412"
         android:protectionLevel="dangerous" />
 
+    <!-- Permissions -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.hardware.camera" android:required="true" />
-
 
     <application
         android:allowBackup="true"
@@ -16,6 +16,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.MSA_Assignment2">
 
+        <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -26,6 +27,7 @@
             </intent-filter>
         </activity>
 
+        <!-- Second Activity -->
         <activity
             android:name=".SecondActivity"
             android:exported="true"
@@ -36,6 +38,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <!-- Image Capture Activity -->
+        <activity
+            android:name=".ImageCaptureActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MSA_Assignment2"/>
+
     </application>
 
 </manifest>
